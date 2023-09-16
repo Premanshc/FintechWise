@@ -1,0 +1,59 @@
+.textsearch {
+  width: 100%;
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.textsearch h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: greenyellow;
+  margin-right: 1rem;
+}
+.textsearch form {
+  width: 100%;
+}
+.textsearch form .entry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.textsearch form .entry textarea {
+  margin-top: 20px;
+  width: 90%;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: transparent;
+  resize: none;
+}
+.textsearch form .entry button {
+  margin: 20px;
+  cursor: pointer;
+  width: 100px;
+  padding: 15px 25px;
+  background-color: #fff;
+  border: 0;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+.textsearch form .entry button:hover {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.textsearch .result {
+  width: 100%;
+  padding: 20px 50px;
+  text-align: justify;
+  font-size: 0.8rem;
+}/*# sourceMappingURL=TextSearch.css.map */

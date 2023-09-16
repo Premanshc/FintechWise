@@ -1,0 +1,166 @@
+.homecontent {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 70px;
+}
+.homecontent .leftmainbox h1 {
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+.homecontent .leftmainbox h1 span {
+  color: blue;
+}
+.homecontent .leftmainbox h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+  font-family: var(--abel);
+  text-align: justify;
+}
+.homecontent .leftmainbox button {
+  margin: 20px 0px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+}
+.homecontent .leftmainbox button img {
+  position: relative;
+  top: 4px;
+  left: 4px;
+  rotate: 90deg;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.homecontent .leftmainbox button.active {
+  background-color: transparent;
+  border: 1px solid white;
+  color: wheat;
+  margin-left: 20px;
+}
+.homecontent .leftmainbox button:hover {
+  scale: 1.05;
+  background-color: rgba(51, 62, 211, 0.522);
+}
+.homecontent .rightmainbox img {
+  height: 900px;
+  width: 700px;
+}
+
+.companylogo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+.companylogo img {
+  width: 450px;
+  height: 80px;
+}
+
+.offersection {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  background-color: white;
+}
+.offersection .offerbox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.offersection .offerbox h1 {
+  font-size: 3.5rem;
+  font-family: var(--abel);
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 30px;
+}
+.offersection .offerbox button {
+  margin: 30px 0px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+}
+.offersection .offerbox button img {
+  position: relative;
+  top: 4px;
+  left: 4px;
+  rotate: 90deg;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.offersection .offerbox button.active {
+  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+}
+.offersection .offerbox button:hover {
+  scale: 1.05;
+  background-color: rgba(51, 62, 211, 0.522);
+}
+
+.offercards {
+  padding: 50px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.offercards .cardbox {
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 10px;
+  gap: 20px;
+  width: 400px;
+  color: black;
+}
+.offercards .cardbox h1 {
+  font-size: 1.6rem;
+  font-family: var(--abel);
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+.offercards .cardbox h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+  font-family: var(--poppins);
+  text-align: justify;
+}
+.offercards .cardbox:hover {
+  scale: 1.05;
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=Homecontent.css.map */

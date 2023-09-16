@@ -1,0 +1,54 @@
+.navbar {
+  width: 100%;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar img {
+  width: 230px;
+  height: 85px;
+}
+.navbar .navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.navbar .navlinks a {
+  color: white;
+  font-size: 0.9rem;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .navlinks a:hover {
+  transition: all 0.3s ease-in-out;
+  scale: 1.1;
+  color: blue;
+}
+.navbar .navButtons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar .navButtons a {
+  color: white;
+  font-size: 0.9rem;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .navButtons a:hover {
+  transition: all 0.3s ease-in-out;
+  scale: 1.1;
+}
+.navbar .btn {
+  background-color: blue;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  font-size: 0.9rem;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .btn:hover {
+  transition: all 0.3s ease-in-out;
+  scale: 1.1;
+}/*# sourceMappingURL=Navbar.css.map */
