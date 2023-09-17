@@ -1,0 +1,62 @@
+.navbar{
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        width: 230px;
+        height: 85px;
+    }
+
+
+    .navlinks{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+
+        a{
+            color: white;
+            font-size: .9rem;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                transition: all 0.3s ease-in-out;
+                scale: 1.1;
+                color: blue;
+            }
+        }
+    }
+
+    .navButtons{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        a{
+            color: white;
+            font-size: .9rem;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                transition: all 0.3s ease-in-out;
+                scale: 1.1;
+            }
+        }
+    }
+
+    .btn{
+        background-color: blue;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 30px;
+        color: white;
+        font-size: .9rem;
+        transition: all 0.3s ease-in-out;
+
+        &:hover{
+            transition: all 0.3s ease-in-out;
+            scale: 1.1;
+        }
+    }
+
+}

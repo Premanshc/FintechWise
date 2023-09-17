@@ -1,0 +1,17 @@
+.expensecontent h1{
+    font-size: 80px;
+    text-align: center;
+    margin: 20px 0px;
+    color: yellow;
+}
+
+.expensecontent .items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.expensecontent .items h2{
+        font-size: 30px;
+}

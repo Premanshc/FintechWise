@@ -1,0 +1,29 @@
+// import abel from google fonts with all the weights
+@import url('https://fonts.googleapis.com/css2?family=Abel:wght@100;200;300;400;500;600;700&display=swap');
+
+//import poppins from google fonts with all the weights
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --poppins: 'Poppins', sans-serif;
+    --abel: 'Abel', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--poppins);
+    list-style: none;
+    text-decoration: none;
+
+}
+
+html{
+    font-size: 20px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
